@@ -1,0 +1,11 @@
+name: gatsbyjs
+description: App Description
+ignoreFiles: .git .cache public node_modules
+modules:
+  - name: template
+    language: nodejs14.x
+    web: gatsbyjs
+    description: Module description
+    functions:
+      - name: entry
+        description: the entry point for the function
