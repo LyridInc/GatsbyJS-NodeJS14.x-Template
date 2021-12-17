@@ -16,7 +16,7 @@ const IndexPage = () => {
               <h1 className={styles.title}>Welcome to Lyrid</h1>
               <p className={styles.subtitle}>Get started by editing your Gatsby.JS Application.
                 <br/>
-                <a href="https://nextjs.org/docs/getting-started">Documentation</a>
+                <a href="https://www.gatsbyjs.com/docs/">Documentation</a>
               </p>
             </div>
             <div>
