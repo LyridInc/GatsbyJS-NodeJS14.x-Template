@@ -52,3 +52,9 @@
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+<a href="https://app.lyrid.io/login?one-click-deploy=true&origin=github&repository-url=https://github.com/LyridInc/GatsbyJS-NodeJS14.x-Template.git&env=empty&project-type=GatsbyJS&repo-name=GatsbyJS-NodeJS14.x-Template">
+  <button>
+    <img src="/src/images/svg/ocd_deploy_to_lyrid.svg" style="height: 50px; width:200px;"/>
+  </button>
+</a>
