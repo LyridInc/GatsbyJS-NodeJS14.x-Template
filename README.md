@@ -1,54 +1,66 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# GatsbyJS-NodeJS14.x-Template
 
-## 🚀 Quick start
+## SAMPLE TEMPLATE
+![hi](/src/images/lyrid_logo_large.png)
+This template is for _language_ suitable for uploading to the Lyrid Platform.
 
-1.  **Create a Gatsby site.**
+## Prerequisites 
+1. Register an account at [Lyrid Web Application](https://app.beta.lyrid.io/) 
+2. Download our command line tool, [the lc](https://docs.lyrid.io/initialization)
+3. Clone the repo 'git clone https://github.com/sample_here'
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Run locally with:
+```
+npm init gatsby
+cd into your gatsby directory
+npm run develop
+```
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+Open http://localhost:8080
 
-2.  **Start developing.**
+## Edit the names (optional):
+Open .lyrid-definition and change the App and Module name, because this will override another applications with the same name in the platform.
 
-    Navigate into your new site’s directory and start it up.
+## User can clone this repo, then Replace these variables in all files :
+- YOUR_APP_NAME
+- YOUR_MODULE_NAME
+- YOUR_FUNCTION_NAME
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+To change your file information:
+Open ```.lyrid-definition.YML``` file
+Change ```name``` and ```module name``` to your choice and save.
 
-3.  **Open the code and start customizing!**
+### Start Coding!
+Users can edit route url, settings, and views with custom APIs. 
 
-    Your site is now running at http://localhost:8000!
+### Submit to Lyrid 
+*User can now deploy a Express web application using TypeScript.
+Use our command line tool to easily upload your application to the cloud.
+```
+lc code submit
+```
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Start hacking:
 
-4.  **Learn more**
+Edit the routes at /src/entry/entry.js with your custom API. 
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Add more middlewares or your business logic in there.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Notes:
+Make sure user don't change the build output (`outDir`) in `tsconfig.json` as it will break the folder structure in deployment.
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Contact Us
+Have any questions? We are here to help!
+Email us at support@lyrid.io  
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Find us on social medias
+- [Discord](https://discord.com/invite/xtCCtc9WAX)
+- [LinkedIn](https://www.linkedin.com/company/lyrid/?viewAsMember=true)
+- [Twitter](https://twitter.com/LyridInc)
+- [Facebook](https://www.facebook.com/lyridinc)
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+<a href="https://app.lyrid.io/login?one-click-deploy=true&origin=github&repository-url=https://github.com/LyridInc/GatsbyJS-NodeJS14.x-Template.git&env=empty&project-type=GatsbyJS&repo-name=GatsbyJS-NodeJS14.x-Template">
+  <button>
+    <img src="/src/images/svg/ocd_deploy_to_lyrid.svg" style="height: 50px; width:200px;"/>
+  </button>
+</a>
